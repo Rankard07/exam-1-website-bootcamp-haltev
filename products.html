@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="/image/favicon_io/favicon.ico" type="image/x-icon" />
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+
+    <!-- Fonts -->
+    <!-- Preconnect to google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!-- Preconnect to gstatic -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Montserrat -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Playfair Display -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bilbo Swash Caps -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Open Sans, Inter, Roboto -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Heebo -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Rhyanie Lane -->
+    <style>
+      @font-face {
+        font-family: rhyanie-lane;
+        src: url(/Font/rhyanie-lane/Rhyanie\ Lane.ttf);
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="headerContent">
+        <a class="logo" href="#">
+          <img src="KoeMau - Bgone.png" alt="KoeMau" class="logoImg" />
+          <span class="logoText">KoeMau</span>
+        </a>
+
+        <nav class="navbar" id="myTopnav">
+          <ul class="navbarList" id="dropdown">
+            <li class="navItem">
+              <a class="navLink" href="index.html">Home</a>
+            </li>
+
+            <li class="navItem">
+              <a class="navLink" href="aboutUs.html">About Us</a>
+            </li>
+
+            <li class="navItem">
+              <a class="navLink" href="#products">Products</a>
+            </li>
+
+            <li class="navItem">
+              <a class="btnContact" href="contactUs.html">Contact Us</a>
+            </li>
+          </ul>
+
+          <div class="contactInfo">
+            <div class="phone">
+              <a class="" href="#"
+                ><i class="fa-solid fa-phone icon"></i>0812-9880-9641</a
+              >
+            </div>
+
+            <div class="email">
+              <a class="" href="#"
+                ><i class="fa-solid fa-envelope icon"></i
+                >randikadewandaru07@gmail.com</a
+              >
+            </div>
+          </div>
+        </nav>
+
+        <div class="hamburger" onclick="myFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Daftar Produk -->
+      <section class="ourProduct">
+        <h2 class="text-center mb-4 product-list-h2">Explore Our Products</h2>
+        <div class="all-card">
+          <a href="#dimsum" class="product-item product-1">
+            <img src="/image/PR/Dimsum 50.jpeg" alt="Dimsum" />
+            <p>Dimsum</p>
+          </a>
+
+          <a href="#cireng" class="product-item product-2">
+            <img src="/image/PR/Cireng (Portrait).jpeg" alt="Cireng" />
+            <p>Cireng</p>
+          </a>
+
+          <a href="#katsu" class="product-item product-3">
+            <img src="/image/PR/Katsu.jpeg" alt="Katsu" />
+            <p>Katsu</p>
+          </a>
+
+          <a href="#siomay" class="product-item product-4">
+            <img src="/image/LS/Siomay 25.jpeg" alt="Siomay" />
+            <p>Siomay</p>
+          </a>
+
+          <a href="#pangsit" class="product-item product-5">
+            <img src="/image/LS/Pangsit.jpeg" alt="Pangsit" />
+            <p>Pangsit</p>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section-about">
+          <h3 class="h-about">KoeMau</h3>
+          <p>
+            Menyajikan kelezatan Dimsum dan Frozen Food berkualitas tinggi untuk
+            setiap momen istimewa Anda.
+          </p>
+        </div>
+        <div class="footer-section-social">
+          <h3 class="h-social">Socials Media</h3>
+          <div class="socials">
+            <a target="_blank" href="https://www.youtube.com/@ra_ra_za"
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <a target="_blank" href="https://www.instagram.com/rndikazhrn/"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a target="_blank" href="https://www.tiktok.com/@ra_za_rd"
+              ><i class="fab fa-tiktok"></i
+            ></a>
+            <a target="_blank" href="https://wa.me/6287836798018"
+              ><i class="fab fa-whatsapp"></i
+            ></a>
+            <a target="_blank" href="https://github.com/Rankard07"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a target="_blank" href="https://www.reddit.com/"
+              ><i class="fab fa-reddit"></i
+            ></a>
+          </div>
+        </div>
+        <div class="footer-section-contact">
+          <h3 class="h-contact">Contact Info</h3>
+          <div class="c-info">
+            <p>
+              <i class="fa fa-map-marker"></i>&nbsp;Jl. Almadaniah II No.8,
+              RT.008/RW.002, Jaticempaka, Kec. Pd. Gede, Kota Bks, Jawa Barat
+              17411
+            </p>
+            <p><i class="fa fa-phone"></i>&nbsp;0812-9880-9641</p>
+            <p>
+              <i class="fa fa-envelope"></i>&nbsp;randikadewandaru07@gmail.com
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">&copy; 2021 KoeMau. All rights reserved.</div>
+    </footer>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

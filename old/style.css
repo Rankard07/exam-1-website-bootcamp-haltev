@@ -1,0 +1,245 @@
+/* .carousel-item {
+    height: 800px;
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+} */
+
+/* #carouselExampleCaptions {
+    max-width: 90%;
+    width: auto;
+    height: auto;
+    margin: 40px auto;
+    border-radius: 15px;
+    background-color: silver;
+    overflow: hidden;
+    box-shadow: 0 5px 20px;
+} */
+
+/* #carouselExampleCaptions .carousel-item img {
+    max-height: 600px;
+    width: auto;
+    height: 800px;
+    /* object-fit: contain;
+    display: block;
+    object-position: center;
+    background-color: silver;
+}
+
+#carouselExampleCaptions .carousel-item img {
+    transition: opacity 1s ease-in-out;
+    /* default 0.6s, ubah jadi 1s
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+@font-face {
+  font-family: rhyanie-lane;
+  src: url(/Font/rhyanie-lane/Rhyanie\ Lane.ttf);
+}
+
+/* NORMAL STYLE */
+/* NAVBAR */
+.main-navbar {
+  min-height: 100px;
+  display: flex;
+  /* align-items: center; */
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1030;
+}
+
+body {
+  padding-top: 100px;
+  margin: 0;
+}
+
+.navbar-brand img {
+  height: 80px;
+  width: auto;
+}
+
+.navbar-text {
+  font-family: rhyanie-lane;
+  font-size: 2em;
+  margin-left: 0.5em;
+}
+
+.nav-item {
+  font-weight: bold;
+}
+
+.nav-link {
+  white-space: nowrap;
+}
+
+.nav-item:hover {
+  color: white;
+}
+/* DROPDOWN MENU */
+.dropdown-menu {
+  background-color: #f8f9fa;
+  width: auto;
+  max-width: 150px;
+}
+
+.dropdown-item {
+  color: #343a40;
+}
+
+.dropdown-item:hover {
+  background-color: #e9ecef;
+  color: #343a40;
+}
+/* section {
+    min-height: 600px;
+    background-color: goldenrod;
+    padding: 4em 8em;
+}
+
+.product-card {
+    max-height: 300px;
+    /* width: 200px; 
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    max-width: 200px;
+    /* border: 1px solid;
+    border-radius: 1.2em;
+}
+
+.product-card img {
+    height: 150px;
+    width: 150px;
+    object-fit: contain;
+    margin-top: 1em;
+}
+
+.text-caption {
+    text-align: center;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+} */
+
+/* Carousel */
+.c-item {
+  height: 600px;
+}
+
+.c-img {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.4) blur(3px);
+}
+
+/* Daftar Produk */
+section {
+  min-height: 600px;
+  width: auto;
+  background-color: silver;
+  padding: 40px 20px;
+}
+
+.all-card {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+section img {
+  max-height: 200px;
+  max-width: 100%;
+  object-fit: cover;
+  margin-top: 1em;
+  transition: transform 0.3s ease;
+}
+
+.product-item {
+  height: 300px;
+  width: 200px;
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: white;
+  /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+
+  /* Transisi Dilatasi */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: solid;
+  color: black;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.product-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+/* HOVER */
+/* Animasi Box */
+.product-item:hover {
+  transform: scale(1.12);
+  /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* Animasi Gambar */
+/* .product-item:hover img {
+    transform: scale(1.1);
+} */
+
+.product-item p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+
+/* Styling masing-masing produk */
+.product-1 {
+  /* Styling produk 1  */
+}
+
+.product-2 {
+  /* Styling produk 2 */
+}
+
+.product-3 {
+  /* Styling produk 3 */
+}
